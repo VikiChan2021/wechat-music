@@ -1,0 +1,105 @@
+.banners {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banners image {
+  width: 100%;
+  height: 100%;
+}
+
+.navContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 40rpx;
+}
+
+.navContainer .navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.navContainer .navItem .iconfont {
+  width: 100rpx;
+  height: 100rpx;
+  background: rgb(240, 19, 19);
+  color: #fff;
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 50rpx;
+  margin-bottom: 5rpx;
+}
+
+.recommendContainer {
+  padding: 20rpx;
+}
+
+scroll-view {
+  display: flex;
+  height: 300rpx;
+}
+scroll-view .scrollItem {
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+scroll-view .scrollItem image {
+  width: 200rpx;
+  height: 200rpx;
+}
+scroll-view .scrollItem text {
+  font-size: 32rpx;
+  /* 单行文本溢出隐藏,省略号代替 */
+  /* display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  /* 多行文本溢出隐藏,省略号代替 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.topListContainer {
+  padding: 20rpx;
+}
+.topListSwiper {
+  height: 435rpx;
+}
+.topListSwiper .topListSwiperItem {
+  width: 93% ;
+  padding-left: 20rpx;
+  background: #eee;
+  border-radius: 20rpx;
+}
+.topListSwiper swiper-item .title {
+  margin: 20rpx 0;
+}
+.topListSwiper swiper-item .musicItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.topListSwiper swiper-item .musicItem image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.topListSwiper swiper-item .musicItem .count {
+  margin: 0 30rpx;
+}
+.topListSwiper swiper-item .musicItem .musicName {
+  font-size: 32rpx;
+
+  max-width: 280rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

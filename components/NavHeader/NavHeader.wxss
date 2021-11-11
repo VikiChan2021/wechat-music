@@ -1,0 +1,21 @@
+.container .title {
+  color: gray;
+  font-size: 30rpx;
+}
+.container .header {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.container .header .word {
+  font-size: 36rpx;
+}
+.container .header .more {
+  float: right;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+
+  border: 1rpx solid #000;
+  border-radius: 30rpx;
+  padding: 0 10rpx;
+}
